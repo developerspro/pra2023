@@ -1,0 +1,16 @@
+ALGORITMO SOMA
+
+DECLARACAO
+	NUMERO1: DECIMAL;
+	NUMERO2: DECIMAL;
+	RESULTADO: DECIMAL;
+
+INICIO
+	escreva("Digite um numero para dividir");
+	leia(NUMERO1);
+	escreva("Digite outro numero para dividir");
+	leia(NUMERO2);
+	RESULTADO<-NUMERO1/NUMERO2;
+	escreva("O resultado é");
+	escreva(RESULTADO);
+FIM
