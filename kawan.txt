@@ -1,1 +1,103 @@
-Kawan
+Kawan Rocha do Vale
+
+https://madrugaula.com.br/index.php/2023/02/16/git/#page-content
+
+
+
+
+
+C:\Users\Tecnico>cd desktop 
+
+C:\Users\Tecnico\Desktop>dir
+
+C:\Users\Tecnico\Desktop>mkdir projetoX X=qualquer
+
+C:\Users\Tecnico\Desktop>cd projetokkkk
+
+C:\Users\Tecnico\Desktop\projetokkkk>git init
+Initialized empty Git repository in C:/Users/Tecnico/Desktop/projetokkkk/.git/
+
+C:\Users\Tecnico\Desktop\projetokkkk>git status
+
+C:\Users\Tecnico\Desktop\projetokkkk>git add soma.txt
+
+C:\Users\Tecnico\Desktop\projetokkkk>git status
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   soma.txt
+
+C:\Users\Tecnico\Desktop\projetokkkk>git commit -m "Pseudocódigo de soma"
+
+C:\Users\Tecnico\Desktop\projetokkkk>git config --local user.name "X"
+
+C:\Users\Tecnico\Desktop\projetokkkk>git config --local user.email "Y"
+
+C:\Users\Tecnico\Desktop\projetokkkk>git commit -m "Pseudocódigo de soma"
+[master (root-commit) b836b1d] Pseudocódigo de soma
+  1 file changed, 23 insertions(+)
+create mode 100644 soma.txt
+
+C:\Users\Tecnico\Desktop\projetokkkk>git log
+commit b836b1dc2730aa63b152d537058b42fa72cbbe61 (HEAD -> master)
+Author: Karocha2 <kawan.vale@etec.sp.gov.br>
+Date:   Mon Apr 24 20:09:23 2023 -0300
+    Pseudocódigo de soma
+=marca no tempo
+
+
+C:\Users\Tecnico\Desktop\projetokkkk>git branch
+* master
+
+C:\Users\Tecnico\Desktop\projetokkkk>git branch calculadora
+
+C:\Users\Tecnico\Desktop\projetokkkk>git branch
+  calculadora
+* master
+C:\Users\Tecnico\Desktop\projetokkkk>git checkout calculadora
+Switched to branch 'calculadora'
+
+C:\Users\Tecnico\Desktop\projetokkkk>git branch
+* calculadora
+  master
+
+C:\Users\Tecnico\Desktop\projetokkkk>git status
+On branch calculadora
+nothing to commit, working tree clean
+
+C:\Users\Tecnico\Desktop\projetokkkk>git checkout master
+Switched to branch 'master'
+
+C:\Users\Tecnico\Desktop\projetokkkk>git branch
+  calculadora
+* master
+
+C:\Users\Tecnico\Desktop\projetokkkk>git checkout calculadora
+Switched to branch 'calculadora'
+
+C:\Users\Tecnico\Desktop\projetokkkk>git merge calc_hp
+Updating 46d1ba4..f555ee9
+Fast-forward
+ anotcopia.txt   | 41 +++++++++++++++++++++++++++++++++++++++++
+ calculadora.txt |  1 +
+ 2 files changed, 42 insertions(+)
+ create mode 100644 anotcopia.txt
+
+C:\Users\Tecnico\Desktop\projetokkkk>git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    anot.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Tecnico\Desktop\projetokkkk>git restore calculadora
+error: pathspec 'calculadora' did not match any file(s) known to git
+
+C:\Users\Tecnico\Desktop\projetokkkk>git restore anot.txt
+
+C:\Users\Tecnico\Desktop\projetokkkk>git status
+On branch master
+nothing to commit, working tree clean
