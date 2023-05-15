@@ -98,3 +98,37 @@ C:\Users\Tecnico\Desktop\projetokkkk>git restore anot.txt
 C:\Users\Tecnico\Desktop\projetokkkk>git status
 On branch master
 nothing to commit, working tree clean
+
+Estes são comandos comuns do Git usados ​​em várias situações:
+
+iniciar uma área de trabalho (veja também: git help tutorial)
+   CLONE Clonar um repositório em um novo diretório
+   INIT Cria um repositório Git vazio ou reinicializa um já existente
+
+trabalhe na mudança atual (veja também: ajuda do git todos os dias)
+   ADD Adiciona o conteúdo do arquivo ao índice
+   MV Mover ou renomear um arquivo, um diretório ou um link simbólico
+   RESTORE Restaurar arquivos da árvore de trabalho
+   RM Remova arquivos da árvore de trabalho e do índice
+
+examine o histórico e o estado (consulte também: revisões da ajuda do git)
+   BISECT Use busca binária para encontrar o commit que introduziu um bug
+   DIFF Mostra alterações entre commits, commit e árvore de trabalho, etc
+   GREP Imprime linhas que correspondem a um padrão
+   LOG Mostrar logs de confirmação
+   SHOW Mostrar vários tipos de objetos
+   STATUS Mostra o status da árvore de trabalho
+
+crescer, marcar e ajustar sua história comum
+   BRANCH Listar, criar ou excluir ramificações
+   COMMIT Registra as alterações no repositório
+   MERGE Une dois ou mais históricos de desenvolvimento juntos
+   REBASE Reaplica commits em cima de outra ponta base
+   RESET Redefina o HEAD atual para o estado especificado
+   SWITCH alternar ramificações
+   TAG Crie, liste, exclua ou verifique um objeto de tag assinado com GPG
+
+colabore (consulte também: fluxos de trabalho de ajuda do git)
+   FETCH Baixar objetos e refs de outro repositório
+   PULL Fetch e integração com outro repositório ou uma ramificação local
+   PUSH Atualize as referências remotas junto com os objetos associados
