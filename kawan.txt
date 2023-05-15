@@ -3,9 +3,6 @@ Kawan Rocha do Vale
 https://madrugaula.com.br/index.php/2023/02/16/git/#page-content
 
 
-
-
-
 C:\Users\Tecnico>cd desktop 
 
 C:\Users\Tecnico\Desktop>dir
